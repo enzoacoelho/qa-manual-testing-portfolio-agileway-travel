@@ -13,8 +13,6 @@
 **Expected Result:**  
 User is successfully authenticated and redirected to the home page.
 
-**Status:** Pass
-
 ---
 
 ## Invalid Scenarios
@@ -30,8 +28,6 @@ User is successfully authenticated and redirected to the home page.
 **Expected Result:**  
 System displays validation message indicating required fields.
 
-**Status:** Pass
-
 ---
 
 ### TC-LOGIN-003
@@ -45,8 +41,6 @@ System displays validation message indicating required fields.
 **Expected Result:**  
 System displays error message and denies access.
 
-**Status:** Pass
-
 ---
 
 ### TC-LOGIN-004
@@ -59,9 +53,7 @@ System displays error message and denies access.
 4. Click on Login button
 
 **Expected Result:**  
-System displays validation message for username field.
-
-**Status:** Pass
+System displays validation message for username field. 
 
 ---
 
@@ -77,4 +69,3 @@ System displays validation message for username field.
 **Expected Result:**  
 System displays validation message for password field.
 
-**Status:** Pass
