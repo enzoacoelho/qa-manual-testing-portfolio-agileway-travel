@@ -162,12 +162,11 @@ System allows selection of only one flight at a time.
 ---
 
 ### TC-FS-012
-**Title:** Select one-way trip and attempt to select return date  
+**Title:** Verify return date field is hidden for one-way trips  
 
 **Steps:**
 1. Access the flight search page
 2. Select trip type as One-way
-3. Attempt to select a return date
 
 **Expected Result:**  
-Return date field is disabled or ignored for one-way trips.
+Return date field is not displayed when one-way trip is selected.
