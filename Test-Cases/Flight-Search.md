@@ -109,27 +109,28 @@ System prevents progression and displays a validation message.
 ---
 
 ### TC-FS-008
-**Title:** Select flight with required fields not filled  
+**Title:** Verify flights are not displayed when required fields are empty  
 
 **Steps:**
 1. Access the flight search page
 2. Leave one or more required fields empty
 
 **Expected Result:**  
-System does not display available flights and shows validation messages for required fields.
+Available flights are not displayed until all required fields are filled.
 
 ---
 
 ### TC-FS-009
-**Title:** Select flight with same origin and destination  
+**Title:** Select same origin and destination with same departure and return date  
 
 **Steps:**
 1. Access the flight search page
 2. Enter the same city for origin and destination
-3. Select valid dates
+3. Select the same date for departure and return
 
 **Expected Result:**  
-System prevents flight search and displays a validation message.
+System prevents flight search due to invalid route configuration.
+
 
 ---
 
